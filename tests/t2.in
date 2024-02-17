@@ -1,0 +1,2 @@
+// variable redefinition is allowed
+let x=1; let x=2; print x;

@@ -1,0 +1,6 @@
+(library
+ (name actinium))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))

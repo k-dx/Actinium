@@ -1,0 +1,16 @@
+let x = 10;
+let mk_counter = fn () {
+    let i = 0;
+    fn () {
+        i = i + 1;
+        print i;
+        print x;
+        print "---";
+    };
+};
+let c = mk_counter();
+c(); // => 1 10
+x = 20;
+c(); // => 2 20
+x = 30;
+c(); // => 3 30

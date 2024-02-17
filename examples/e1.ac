@@ -1,0 +1,7 @@
+let age = 1;
+let hello = "world";
+let result = 10 * (20 / 2);
+
+print age;
+print hello;
+print result;

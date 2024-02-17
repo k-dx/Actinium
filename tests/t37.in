@@ -1,0 +1,4 @@
+let f = fn() {
+    return 1;
+};
+print false or f();

@@ -1,0 +1,1 @@
+let x = 1; let inc = fn () { x = x + 1; }; inc(); print x;

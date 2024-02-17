@@ -1,0 +1,23 @@
+let i = -10;
+let f = fn () {
+    fn (x) {
+        let i = 0;
+        fn (y) {
+            i = i + 3;
+            print i;
+            print x + y;
+            x + y;
+        };
+    };
+};
+let c = f();
+c(1)(2); // => 1 3
+print "---";
+c(4)(2); // => 1 6
+print "---";
+print i; // => -10
+print "---";
+let d = f()(10);
+d(1); // => 3 11
+print "---";
+d(2); // => 6 12

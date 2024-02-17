@@ -1,0 +1,1 @@
+print "hi" or false; // prints "hi" because "hi" is truthy

@@ -1,0 +1,2 @@
+// functions (& closures)
+let f = fn () { print 1; }; f();

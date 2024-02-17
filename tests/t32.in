@@ -1,0 +1,14 @@
+let fibonacci = fn(x) {
+    if (x == 0) {
+        0;
+    } else {
+        if (x == 1) {
+            1;
+        } else {
+            fibonacci(x - 1) + fibonacci(x - 2);
+        }
+    }
+};
+for (let i = 0; i < 10; i = i + 1) {
+    print fibonacci(i);
+}

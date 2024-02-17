@@ -1,0 +1,14 @@
+let mk_counter = fn () {
+    let i = 0;
+    return fn () {
+        fn () {
+            i = i + 1;
+            print i;
+        };
+    };
+};
+
+let c = mk_counter()();
+c(); // => 1
+c(); // => 2
+c(); // => 3

@@ -1,0 +1,2 @@
+// dangling else problem
+if (false) if (false) print 1; else print 2;

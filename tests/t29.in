@@ -1,0 +1,7 @@
+let twice = fn (f, x) {
+    f(f(x));
+};
+let addtwo = fn (x) {
+    x + 2;
+};
+print twice(addtwo, 2); // => 6

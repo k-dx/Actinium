@@ -1,0 +1,3 @@
+let a = "hello";
+a[0] = "y";
+printf(a);

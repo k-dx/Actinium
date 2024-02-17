@@ -1,0 +1,2 @@
+// variable definition (number)
+let x = 1; print x;

@@ -1,0 +1,2 @@
+// blocks and scopes
+{print 3;} print 2;

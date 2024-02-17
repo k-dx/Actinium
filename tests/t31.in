@@ -1,0 +1,8 @@
+let f = fn (a) {
+    let a = 42;
+    print a;
+    a;
+};
+let x = 1;
+let x = 2;
+f(1); // => 42
